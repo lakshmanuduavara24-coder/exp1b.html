@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Working of Hyperlinks</title>
+</head>
+<body>
+
+    <h1>Understanding Hyperlinks in HTML</h1>
+
+    <p>
+        In HTML, hyperlinks are created using the <b>&lt;a&gt;</b> (anchor) tag.
+        The <b>href</b> attribute specifies the destination URL.
+        The <b>target</b> attribute specifies where to open the linked document.
+    </p>
+
+    <h2>Example 1: Basic Hyperlink</h2>
+    <p>
+        This link opens OpenAI in the same tab:
+        <br>
+        <a href="https://www.openai.com">Visit OpenAI</a>
+    </p>
+
+    <h2>Example 2: Hyperlink with target="_blank"</h2>
+    <p>
+        This link opens OpenAI in a new tab:
+        <br>
+        <a href="https://www.openai.com" target="_blank">
+            Visit OpenAI in New Tab
+        </a>
+    </p>
+
+    <h2>Different Target Attribute Values</h2>
+    <ul>
+        <li><b>_self</b> – Opens the link in the same tab (default).</li>
+        <li><b>_blank</b> – Opens the link in a new tab or window.</li>
+        <li><b>_parent</b> – Opens the link in the parent frame.</li>
+        <li><b>_top</b> – Opens the link in the full body of the window.</li>
+    </ul>
+
+    <h2>Example 3: Email Hyperlink</h2>
+    <p>
+        You can also create an email link using <b>mailto:</b>
+        <br>
+        <a href="mailto:example@email.com">
+            Send Email
+        </a>
+    </p>
+
+    <h2>Example 4: Link to Another Page</h2>
+    <p>
+        This link connects to another HTML page in the same folder:
+        <br>
+        <a href="page2.html">Go to Page 2</a>
+    </p>
+
+</body>
+</html>
